@@ -1,0 +1,47 @@
+---
+title: "Capstone_Project_Proposal"
+author: "Mary Wojtas"
+date: "10/14/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Section 2: Capstone Project Proposal: Predicting Wine Quality and Price
+
+### What is the problem I want to solve?
+
+Be able to create a predictive model on red and white wine datasets so that I can provide guidance to vineyards regarding wine quality and wine price expected on their products without having to rely heavily on the subjectiveness of wine tasters.
+
+### Who is the client and why do they care about this problem?
+
+My client is a vineyard looking to provide the best price for their wines and to understand their quality of wines for their crops.  Without this information, they may lose money and not sell as many wines.  Also, this information may help them to understand which grape varieties grow well in their region and what they may need to change about planting, harvesting, and wine production to maximize the wine price and quality. An example is if the winemaker wishes to change up their blends from different percentages to different grape varieties.
+
+### What data am I going to use for this? How will I acquire the data?
+
+Either existing datasets downloaded from Kaggle, UCI (University of California Irvine) Machine Learning Repository, or scraping sites like Wine Enthusiast.
+
+### Approach to solving the problem
+
+1. Learn how to "scrape" and collect the data from someplace like Wine Enthusiast.
+    + Also practice with data downloaded from Kaggle and UCI.
+2. Perform an Exploratory Data Analysis
+    + Look at the distribution of the different variable values
+    + Experiment with the different plotting functions of R
+3. Prepare the Data
+    + Identify outliers
+    + Identify missing values
+4. Investigate some statistical analysis on the data set
+    + Investigate Multiple Regression
+    + Investigate Linear Regression
+    + Investigate Tree-based Methods
+    + Investigate Random Forest
+    + Investigate Inference of Categorical Data
+5. Evaluate the Models
+6. Plot the results
+7. Provide a solution to the problem 
+8. Put together the slide presentation 
+9. Deliver the code and slide deck presentation
+
